@@ -1,0 +1,17 @@
+# Name of the contenttype in which to insert the items.
+contenttype: feeditems
+
+# Set the key, to prevent people from trying to DDOS your server by triggering
+# /bolt/rsscrawler a lot.
+key: aGhgdhTRV35FS
+
+# How many items should be considered for import / updating
+# itemamount: 20
+
+feeds:
+    bbc:
+        name: "BBC"
+        title: "BBC World News"
+        url: "http://news.bbc.co.uk"
+        feed: "http://feeds.bbci.co.uk/news/rss.xml"
+

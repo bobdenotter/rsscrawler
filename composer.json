@@ -1,0 +1,25 @@
+{
+	"name" : "bolt/rsscrawler",
+	"description" : "RSS crawler extension for Bolt",
+	"type" : "bolt-extension",
+	"keywords" : [
+		"RSS", "crawler"
+	],
+	"require" : {
+		"bolt/bolt" : ">=2.1.0,<3.0.0"
+	},
+	"license" : "GPL-3.0+",
+	"authors" : [{
+			"name" : "Bob den Otter",
+			"email" : "bob@twokings.nl"
+		}
+	],
+	"autoload" : {
+		"files" : [
+			"init.php"
+		],
+		"psr-4" : {
+			"Bolt\\Extension\\Bolt\\RSSCrawler\\" : ""
+		}
+	}
+}
